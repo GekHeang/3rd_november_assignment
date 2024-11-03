@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            font-size: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            
+            
+        }
+        .header{
+            border-radius: 0.5rem;
+            height: 100px;
+            background-color: #1e90ff;
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+            margin-bottom: 1rem;
+            box-shadow: (6px,6px,10px,10px,#0077ea);
+            padding-left: 10px;
+        }
+        .middle{
+            display: flex;
+            width: 100%;
+            flex: 1;
+            height: calc(100vh - 200px);
+            margin-bottom: 1rem;
+            
+        }
+        .main{
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+            align-items: stretch;
+            background-color: #3cb371;
+            margin-right: 1rem;
+            box-shadow: (6px,6px,10px,10px,#2f8d59);
+            padding-left: 10px;
+        }
+        .sidebar{
+            border-radius: 0.5rem;
+            display: flex;
+            flex: 1;
+            align-items: stretch;
+            background-color: #ff6347;
+            box-shadow: (6px,6px,10px,10px,#e02200);
+            padding-left: 10px;
+        }
+        .footer{
+            height: 100px;
+            border-radius: 0.5rem;
+            background-color: #4169e1;
+            box-shadow: (6px,6px,10px,10px,#1d44b8);
+            padding-left: 10px;
+        }
+        .items{
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            
+        }
+        .item{
+            height: 100px;
+            width: 100px;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            background-color: #2f8d59;
+            border-radius: 0.5rem;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            box-shadow: (6px,6px,10px,10px,#226741);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <H1> Header</H1>
+        </div>
+    
+        <div class="middle">
+            <div class="main">
+                <h1> main </h1>
+                <div class="items">
+                    <div class="item">
+                    <h1>Item</h1>
+                    </div>
+                    <div class="item">
+                        <h1>Item</h1>
+                    </div>
+                    <div class="item">
+                        <h1>Item</h1>
+                    </div>
+                    <div class="item">
+                        <h1>Item</h1>
+                    </div>
+                    <div class="item">
+                        <h1>Item</h1>
+                    </div>
+                    <div class="item">
+                        <h1>Item</h1>
+                    </div>
+                    <div class="item">
+                        <h1>Item</h1>
+                    </div>
+                    <div class="item">
+                        <h1>Item</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h1> sidebar </h1>
+            </div>
+        </div>
+        <div class="footer">
+            <h1> footer </h1>
+        </div>
+    </div>
+    
+</body>
+</html>
